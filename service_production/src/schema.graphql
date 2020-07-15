@@ -1,0 +1,18 @@
+type Query {  
+    package(storeId: String!, trackingId: String!): Package
+}
+
+type Mutation {  
+    createPackage(storeId: String!, trackingId: String!): Package
+}
+
+type Package {
+    storeId: String!
+    trackingId: String!
+    events: [Event]
+}
+
+type Event {
+    event_date: String,
+    event_message: String
+}

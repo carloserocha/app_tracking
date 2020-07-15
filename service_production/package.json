@@ -1,0 +1,14 @@
+{
+  "name": "service_production",
+  "version": "0.0.1",
+  "description": "Get Package by StoreId and TrackingId",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlitos",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
